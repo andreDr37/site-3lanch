@@ -1,0 +1,90 @@
+/* Reset de estilos para garantir uma base consistente em todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho */
+.fotnome {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.fotnome .logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Estilo para a barra de navegação */
+nav {
+    background-color: #333;
+}
+
+.bn {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.bn li {
+    margin-right: 20px;
+}
+
+.bn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilo para as seções de produtos */
+section {
+    margin: 20px;
+}
+
+h3 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Estilo para os produtos */
+.info {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.info h4 {
+    color: #333;
+}
+
+.info h5 {
+    color: #666;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
